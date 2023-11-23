@@ -16,7 +16,7 @@
 
 ::-webkit-scrollbar-thumb {
   border-radius: 1rem;
-  background: #664A3A;
+  background: #EF7D29;
 }
 
 ::-webkit-scrollbar-track {
@@ -80,6 +80,7 @@ h1{
 }
 
 .footer{
+  background-color: rgba(0, 0, 0, 0.8);
   color: white;
   height: 80px;
   display: flex;
@@ -101,12 +102,12 @@ h1{
   width: 40px;
   height: 40px;
   border-radius: 10px;
-  background: #674C3B;
+  background: #EF7D29;
   transition: all .5s ease-in-out;
 }
 
 .socialIcons:hover{
-  background: #BFA18E;
+  background: #A2561D;
 }
 
 .socialIcons img{

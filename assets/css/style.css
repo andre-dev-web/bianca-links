@@ -16,11 +16,15 @@
 
 ::-webkit-scrollbar-thumb {
   border-radius: 1rem;
-  background: #c1827b;
+  background: #CD9856;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #EE972D;
 }
 
 ::-webkit-scrollbar-track {
-  background: rgba(0, 0, 0, 1);
+  background: rgba(228, 228, 228, 0.5);
 }
 
 body{
@@ -43,7 +47,7 @@ body{
 
 h1, h5{
   text-align: center;
-  color: white;
+  color: #000;
   font-weight: 600;
 }
 
@@ -80,8 +84,8 @@ h1, h5{
 }
 
 .footer{
-  background-color: rgba(0, 0, 0, 0.8);
-  color: white;
+  background-color: rgba(228, 228, 228, 0.5);
+  color: #000;
   height: 80px;
   display: flex;
   justify-content: space-around;
@@ -102,12 +106,12 @@ h1, h5{
   width: 40px;
   height: 40px;
   border-radius: 10px;
-  background: #c1827b;
+  background: #CD9856;
   transition: all .5s ease-in-out;
 }
 
 .socialIcons:hover{
-  background: #825957;
+  background: #EE972D;
 }
 
 .socialIcons img{
